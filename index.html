@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="kk" class="translated-ltr"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Тұлға және дәуір — Әлия Юсупованың цифрлық тарихи портреті</title>
+<style>
+:root{--navy:#073b66;--blue:#087ca7;--gold:#e9b949;--cream:#fff9ec;--ink:#12334d}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#eaf3f8;color:var(--ink)}
+header{padding:34px 18px;text-align:center;color:white;background:linear-gradient(130deg,#052d50,#087ca7);border-bottom:6px solid var(--gold)}
+header .eyebrow{letter-spacing:3px;text-transform:uppercase;font-size:.78rem;color:#ffe4a0}
+h1{margin:12px auto 8px;max-width:900px;font-family:Georgia,serif;font-size:clamp(1.8rem,5vw,3.3rem);line-height:1.12}
+header p{max-width:750px;margin:12px auto;line-height:1.5}
+.wrap{max-width:1100px;margin:24px auto;padding:0 14px}
+.notice{background:#fff3cd;border-left:5px solid #d9a323;padding:12px 14px;border-radius:8px;line-height:1.5;margin-bottom:18px}
+.nav{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:18px 0}
+button{cursor:pointer;border:1px solid #b8d0df;background:white;color:var(--navy);padding:11px 14px;border-radius:999px;font-weight:700}
+button.active,button:hover{background:var(--navy);color:white}
+.panel{display:none;background:var(--cream);border:1px solid #d7e2e9;border-radius:18px;padding:clamp(18px,4vw,32px);box-shadow:0 8px 22px #173a5012;min-height:280px}
+.panel.active{display:block;animation:fade .25s ease}
+@keyframes fade{from{opacity:.3;transform:translateY(4px)}to{opacity:1;transform:none}}
+h2{color:var(--navy);font-family:Georgia,serif;margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:13px}
+.card{background:white;border:1px solid #e0e8ec;border-radius:12px;padding:15px;line-height:1.5}
+.big{font-size:2rem;color:#b17d12;font-weight:800}
+.timeline{border-left:3px solid var(--gold);margin:16px 0 0 8px;padding-left:18px}
+.event{margin:0 0 17px;position:relative}.event:before{content:"";position:absolute;left:-25px;top:5px;width:10px;height:10px;border-radius:50%;background:var(--blue)}
+.tag{display:inline-block;background:#e3f2f8;color:var(--navy);padding:5px 9px;border-radius:8px;font-size:.85rem;margin:3px}
+footer{text-align:center;background:#052d50;color:#fff;padding:22px;margin-top:24px;font-family:Georgia,serif}
+a{color:#086c9a}small{color:#536b7b}
+@media print{.nav,.notice{display:none}.panel{display:block!important;page-break-inside:avoid;margin-bottom:12px}body{background:white}}
+
+/* Мәтіннің бірдей қарпі мен өлшемі */
+.panel,.panel p,.panel li,.panel td,.panel th,.panel span,.panel font,.panel b,.panel strong,.panel i,.panel em,.panel a,.panel blockquote,.panel .big{font-family:Arial,sans-serif!important;font-size:16px!important;line-height:1.6!important}
+.panel p,.panel li,.panel td,.panel th{color:var(--ink)!important}
+.panel p{margin-top:0!important;margin-bottom:12px!important;text-align:left!important}
+.panel h2{font-family:Arial,sans-serif!important;font-size:24px!important;line-height:1.35!important}
+.panel h3{font-family:Arial,sans-serif!important;font-size:20px!important;line-height:1.4!important}
+.panel h2 span,.panel h2 font,.panel h3 span,.panel h3 font{font-size:inherit!important}
+.panel img{max-width:100%;height:auto}
+.panel .card{min-width:0}
+.panel a{overflow-wrap:anywhere}
+
+/* Телефон, планшет және ноутбук экрандары */
+html{ -webkit-text-size-adjust:100%;text-size-adjust:100% }
+body{overflow-x:hidden}
+.wrap{width:100%;max-width:1180px;margin:24px auto;padding:0 20px}
+header{padding:36px 20px}
+header h1{font-size:clamp(26px,4.5vw,50px);line-height:1.2}
+header p{font-size:16px;line-height:1.65}
+header .eyebrow{letter-spacing:1.5px;line-height:1.5}
+.nav{gap:10px;margin:20px 0}
+.nav button{min-height:44px;font-size:15px;padding:10px 18px}
+.nav button:focus-visible,.panel a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.panel{padding:28px;min-width:0;overflow-wrap:anywhere}
+.panel .grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:18px}
+.panel .card{min-width:0;padding:20px}
+.panel p{line-height:1.65!important}
+.panel img{display:block;max-width:100%!important;height:auto!important;margin:0 auto}
+#bio .big img{width:100%;max-width:300px!important}
+#timeline img,#map img{width:100%}
+#achievements>.grid,#legacy>.grid{grid-template-columns:1fr}
+.table-scroll{width:100%;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:16px 0;border-radius:8px}
+.panel table{width:100%!important;min-width:540px;border-collapse:collapse;background:white}
+.panel td,.panel th{width:auto!important;padding:10px 12px!important;vertical-align:top!important;border:1px solid #c8d8e2!important}
+.panel td p,.panel th p{margin:0!important}
+.panel tr:first-child{background:#e3f2f8}
+.panel blockquote{margin:16px 0;padding:12px 16px;border-left:3px solid var(--gold)}
+.panel ul,.panel ol{padding-left:24px}
+.panel li{margin:10px 0}
+.panel a{overflow-wrap:anywhere}
+footer{padding:24px 20px;line-height:1.6}
+@media(max-width:640px){
+ .wrap{padding:0 12px;margin:16px auto}
+ header{padding:26px 14px}
+ header .eyebrow{font-size:11px;letter-spacing:1px}
+ header h1{font-size:28px}
+ header .tag{font-size:12px}
+ .nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:16px 0}
+ .nav button{padding:10px 8px;font-size:14px;width:100%}
+ .nav button:last-child{grid-column:1/-1}
+ .panel{padding:18px 14px;border-radius:14px}
+ .panel .grid{grid-template-columns:1fr;gap:14px}
+ .panel .card{padding:16px}
+ .panel h2{font-size:22px!important}
+ .panel h3{font-size:19px!important}
+ .panel td,.panel th{padding:8px!important}
+ #timeline.panel,#map.panel{padding:16px 10px}
+ footer{font-size:15px}
+}
+@media print{.table-scroll{overflow:visible}.panel table{min-width:0}.wrap{max-width:none}}
+
+#timeline h2{margin:0 0 18px!important}
+#timeline .life-image{margin:0 auto;padding:8px;background:#fff;border:1px solid #d7e2e9;border-radius:12px;overflow:hidden;max-width:1050px}
+#timeline .life-image img{display:block;width:100%;max-width:100%!important;height:auto!important;border-radius:7px;margin:0}
+@media(max-width:640px){#timeline.panel{padding:18px 12px}#timeline .life-image{padding:4px;border-radius:9px}#timeline h2{margin-bottom:14px!important}}
+</style>
+<link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.zZZZhVqDDCw.L.W.O/am=QADA/d=0/rs=AN8SPfrXQhGDrY9gDk7kioTTjkwh79jveg/m=el_main_css"></head>
+<body class="">
+<header>
+  <div class="eyebrow" spellcheck="false"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Цифрлық тарихи портрет • зерттеу жобасы</font></font></div>
+  <h1 spellcheck="false"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Тұлға және дәуір: </font></font><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Әлия Юсупованың цифрлық тарихи портреті</font></font></h1>
+  <p spellcheck="false"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Оның спорттық мансабы, халықаралық аренадағы жетістіктері және жас ұрпаққа көрсеткен үлгісі.</font></font></p>
+  <div spellcheck="false"><span class="tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Көркем гимнастика</font></font></span><span class="tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Қазақстан спорты</font></font></span><span class="tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Цифрлық мұра</font></font></span></div>
+</header>
+<main class="wrap">
+  <div class="notice" spellcheck="false"><br></div>
+  <nav class="nav" aria-label="Портрет бөлімдері">
+    <button class="" data-target="bio"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Тұлға туралы</font></font></button>
+    <button data-target="timeline" class=""><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Өмір жолы</font></font></button>
+    <button data-target="achievements" class=""><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Жетістіктер</font></font></button>
+    <button data-target="map" class=""><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">География</font></font></button>
+    <button data-target="interview" class=""><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Сұхбат</font></font></button>
+    <button data-target="legacy" class=""><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Мұра</font></font></button>
+    <button data-target="sources" class="active"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Дереккөздер</font></font></button>
+  </nav>
+  <section id="bio" class="panel" spellcheck="false">
+    <h2><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">01 • Өмірбаян</font></font></h2><div class="grid"><div class="card"><div class="big"><p><img src="assets/image-1.png" alt=""></p></div><p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">.</font></font></p></div>
+      <div class="card"><div class="big"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ә. М. Юсупова</font></font></div><p>
+
+<!--EndFragment --></p><p><b><span lang="KZ" style="font-size:13.5pt;color:#12334D;background:white;
+mso-ansi-language:KZ"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Қазақстандық көркем гимнаст Әлия Юсупова — Қазақстанның көркем гимнастика тарихында ерекше орын алатын спортшы. Оның спорттық мансабы табандылықтың, күнделікті еңбектің және биік мақсаттарға ұмтылудың үлгісі саналады. Тарихи деректерге негізделген бұл цифрлық портретте спортшының халықаралық жарыстардағы нәтижелері, кәсіби қызметі және жас ұрпаққа көрсеткен үлгісі қарастырылады.</font></font></span></b><span lang="KZ" style="mso-ansi-language:
+KZ"><o:p></o:p></span></p></div>
+      <div class="card"><b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Мен, Юсупова Әлия Мақсұтқызы, 1984 жылғы 15 мамырда Оңтүстік Қазақстан облысының Шымкент қаласында дүниеге келдім. </font></font></b><b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">1990 жылы А. Байтұрсынұлы атындағы № 50 мектептің бірінші сыныбына барып, оны 2002 жылы аяқтадым. 1990 жылы № 3 мамандандырылған балалар мен жасөспірімдер спорт мектебінің көркем гимнастика бөліміне қабылдандым. </font></font></b><b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">2002–2006 жылдары М. Әуезов атындағы Оңтүстік Қазақстан мемлекеттік университетінің «Дене шынықтыру және спорт» факультетінде оқыдым. 2006–2008 жылдары сол университеттің магистратурасында «Педагогика және психология» мамандығы бойынша білім алдым.</font></font></b></div>
+    </div>
+    <p><b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Портретке қосу қажет:</font></font></b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;"> ресми фотосурет, қысқаша өмірбаян, дереккөзбен расталған спортшының дәйексөзі, сондай-ақ фотосуреттің авторлық құқықтары мен пайдаланылған деректері туралы мәлімет.</font></font></p>
+  </section>
+  <section id="timeline" class="panel" spellcheck="false">
+    <h2>Өмір жолы мен спорттық белестер</h2>
+    <figure class="life-image"><img src="assets/image-2.png" alt="" style="color: rgb(18, 51, 77); font-family: Arial, sans-serif;"></figure>
+  </section>
+  <section id="achievements" class="panel" spellcheck="false">
+    <h2><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">03 • Жетістіктер мен нәтижелер</font></font></h2>
+    <div class="grid">
+      <div class="card"><div class="big"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">01</font></font></div><b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Олимпиада ойындары</font></font></b><p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Қатысқан жылдары, спорт түрі, көпсайыстағы нақты орны және ресми нәтижесі.</font></font></p><div class="table-scroll" role="region" aria-label="Жарыс нәтижелері кестесі" tabindex="0"><table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr>
+  <td width="177" valign="bottom" style="width:133.0pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Көрсеткіш / Мәлімет</font></font><o:p></o:p></span></b></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">2004
+  жыл (Афина, Грекия)<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">2008
+  жыл (Пекин, Қытай)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="177" valign="bottom" style="width:133.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Спорт түрі<o:p></o:p></span></b></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Көркем
+  гимнастика<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Көркем
+  гимнастика<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="177" valign="bottom" style="width:133.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Бағдарлама<o:p></o:p></span></b></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Жекелей</span><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:
+  EN-US"> </span><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">көпсайыс</span><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  mso-ansi-language:EN-US"><o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Жекелей</span><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:
+  EN-US"> </span><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">көпсайыс</span><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  mso-ansi-language:EN-US"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="177" valign="bottom" style="width:133.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Іріктеу нәтижесі<o:p></o:p></span></b></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">5-орын
+  (101.500 ұпай)<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">5-орын
+  (69.800 ұпай)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="177" valign="bottom" style="width:133.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Көпсайыстағы нақты орны (Ақтық кезең)<o:p></o:p></span></b></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">🏅
+  4-орын<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">🏅
+  5-орын<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="177" valign="bottom" style="width:133.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><b><span lang="KZ" style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:
+  KZ">Ресми соңғы нәтижесі (Ақтық кезеңдегі ұпай)<o:p></o:p></span></b></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">103.975
+  ұпай<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">69.800
+  ұпай<o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table></div></div>
+      <div class="card"><div class="big">02</div><b>Азия чемпионаттары</b><p>Жыл, қала, бағдарлама түрі және медаль түсі/орны туралы тек расталған деректер.</p><div class="table-scroll" role="region" aria-label="Жарыс нәтижелері кестесі" tabindex="0"><table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+ <tbody><tr>
+  <td width="64" valign="bottom" style="width:47.95pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Жыл<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="bottom" style="width:106.3pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Өткен
+  қала (Ел)<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Бағдарлама
+  түрі<o:p></o:p></span></p>
+  </td>
+  <td width="132" valign="bottom" style="width:99.25pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Медаль
+  түсі / Орны<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="64" valign="bottom" style="width:47.95pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:right;line-height:normal"><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">2006<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="bottom" style="width:106.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Сурат
+  (Үндістан)<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Жекелей</span><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:
+  EN-US"> </span><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">көпсайыс</span><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  mso-ansi-language:EN-US"><o:p></o:p></span></p>
+  </td>
+  <td width="132" valign="bottom" style="width:99.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">🥇
+  Алтын (1-орын)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="64" valign="bottom" style="width:47.95pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:right;line-height:normal"><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">2006<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="bottom" style="width:106.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Сурат
+  (Үндістан)<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Командалық
+  көпсайыс<o:p></o:p></span></p>
+  </td>
+  <td width="132" valign="bottom" style="width:99.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">🥇
+  Алтын (1-орын)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="64" valign="bottom" style="width:47.95pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:right;line-height:normal"><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">2006<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="bottom" style="width:106.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Сурат
+  (Үндістан)<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Шеңбер<o:p></o:p></span></p>
+  </td>
+  <td width="132" valign="bottom" style="width:99.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">🥇
+  Алтын (1-орын)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="64" valign="bottom" style="width:47.95pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:right;line-height:normal"><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">2006<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="bottom" style="width:106.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Сурат
+  (Үндістан)<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Доп<o:p></o:p></span></p>
+  </td>
+  <td width="132" valign="bottom" style="width:99.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">🥇
+  Алтын (1-орын)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="64" valign="bottom" style="width:47.95pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:right;line-height:normal"><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">2006<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="bottom" style="width:106.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Сурат
+  (Үндістан)<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Ұршық<o:p></o:p></span></p>
+  </td>
+  <td width="132" valign="bottom" style="width:99.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">🥇
+  Алтын (1-орын)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="64" valign="bottom" style="width:47.95pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:right;line-height:normal"><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">2006<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="bottom" style="width:106.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Сурат
+  (Үндістан)<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Таспа<o:p></o:p></span></p>
+  </td>
+  <td width="132" valign="bottom" style="width:99.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">🥇
+  Алтын (1-орын)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="64" valign="bottom" style="width:47.95pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:right;line-height:normal"><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">2009<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="bottom" style="width:106.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Астана
+  (Қазақстан)<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Жекелей</span><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-ansi-language:
+  EN-US"> </span><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">көпсайыс</span><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+  mso-ansi-language:EN-US"><o:p></o:p></span></p>
+  </td>
+  <td width="132" valign="bottom" style="width:99.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">🥇
+  Алтын (1-орын)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="64" valign="bottom" style="width:47.95pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:right;line-height:normal"><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">2009<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="bottom" style="width:106.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Астана
+  (Қазақстан)<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Командалық
+  көпсайыс<o:p></o:p></span></p>
+  </td>
+  <td width="132" valign="bottom" style="width:99.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">🥇
+  Алтын (1-орын)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="64" valign="bottom" style="width:47.95pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:right;line-height:normal"><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">2009<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="bottom" style="width:106.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Астана
+  (Қазақстан)<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Жіп<o:p></o:p></span></p>
+  </td>
+  <td width="132" valign="bottom" style="width:99.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">🥇
+  Алтын (1-орын)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="64" valign="bottom" style="width:47.95pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:right;line-height:normal"><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">2009<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="bottom" style="width:106.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Астана
+  (Қазақстан)<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Шеңбер<o:p></o:p></span></p>
+  </td>
+  <td width="132" valign="bottom" style="width:99.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">🥇
+  Алтын (1-орын)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="64" valign="bottom" style="width:47.95pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="margin-bottom:0cm;margin-bottom:.0001pt;
+  text-align:right;line-height:normal"><span style="font-size:10.0pt;
+  font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">2009<o:p></o:p></span></p>
+  </td>
+  <td width="142" valign="bottom" style="width:106.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Астана
+  (Қазақстан)<o:p></o:p></span></p>
+  </td>
+  <td width="189" valign="bottom" style="width:5.0cm;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Доп<o:p></o:p></span></p>
+  </td>
+  <td width="132" valign="bottom" style="width:99.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">🥇
+  Алтын (1-орын)<o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table></div></div>
+      <div class="card"><div class="big">03</div><p><img src="assets/image-3.png" alt=""></p></div>
+    </div>
+    <p><b>Көрнекі ақпаратты рәсімдеу ережесі:</b> әр медальға жарыстың ресми атауын, жылын, санатын және дереккөз сілтемесін жазыңыз. Қатысуды жүлдемен шатастырмаңыз.</p>
+  </section>
+  <section id="map" class="panel" spellcheck="false">
+    <h2>04 • География: туған өлке және халықаралық арена</h2>
+    <img src="assets/image-4.jpg" alt="Әлия Юсупованың спорттық жолы: маршрут картасы" style="display:block;width:100%;height:auto;">
+  </section>
+  <section id="interview" class="panel" spellcheck="false">
+    <h2>Зерттеуші сұхбаты</h2>
+    <p><a href="https://youtu.be/dN-t6cvcY_U?si=L-XJPfm2sujmGPMw" target="_blank" rel="noopener noreferrer">https://youtu.be/dN-t6cvcY_U?si=L-XJPfm2sujmGPMw</a></p>
+    <p><a href="https://youtube.com/shorts/o-i3-aaHKEY?si=3kifb298exL-8ZmH" target="_blank" rel="noopener noreferrer">https://youtube.com/shorts/o-i3-aaHKEY?si=3kifb298exL-8ZmH</a></p>
+  </section>
+  <section id="legacy" class="panel" spellcheck="false">
+    <h2>06 • Тұлғаның мұрасы және туған өлке</h2>
+    <div class="grid">
+      <div class="card"><b>Еңбек пен тәртіп</b><p>Кәсіби спорттағы дайындықтың маңызын нақты өмірбаяндық деректер арқылы талдау.</p><p><b data-path-to-node="3" data-index-in-node="0">Әлия Мақсұтқызы Юсупова</b> — көркем гимнастикадан Қазақстанның еңбегі сіңген спортшысы, Азияның бірнеше дүркін чемпионы және Олимпиада ойындарының ақтық кезеңіне қатысушы. Оның спорттық жолы — темірдей тәртіп пен тынымсыз еңбектің арқасында биік белестерді бағындырудың айқын дәлелі.<b data-path-to-node="6,0,0" data-index-in-node="0">Күнделікті қатал тәртіп:</b>
+Көркем гимнастика — өте нәзік әрі физикалық жағынан аса ауыр спорт түрі. Әлия Юсупова кішкентай кезінен бастап күніне 8-10 сағаттап жаттығу залында тер төкті. Ол әрбір қимыл-қозғалысты (элементті) мінсіз деңгейге жеткізгенше мыңдаған рет қайталайтын.«Дарындылық — бұл тек бастапқы деңгей. Ал әлемдік деңгейдегі жеңіске жеткізетін — жылдар бойы қалыптасқан жүйелі кәсіби дайындық, ішкі тәртіп пен ерік-жігер. Әлия Юсупованың өмірбаяны — кәсіби спортта өзін-өзі шектеу мен еңбекқорлықтың жеңіске жеткізетінін дәлелдейтін ең үздік мысал.»</p></div>
+      <div class="card"><b>Ел намысы</b><p>Халықаралық спорттағы өкілдіктің ұлттық мақтаныш пен ел танымалдығына байланысын қарастыру.</p><h2 data-path-to-node="2">&nbsp;Ел намысы — Әлия Юсупованың әлемдік спорттағы ерекше орны</h2><p data-path-to-node="3">Көркем гимнастика — ондаған жылдар бойы еуропалық мектептер мен белгілі мемлекеттердің монополиясында болып келген спорт түрі. Ал <b data-path-to-node="3" data-index-in-node="130">Әлия Юсупова</b> бұл қалыптасқан түсінікті өзгертіп, Азия құрлығы мен Қазақстанның атын әлемдік гимнастика тарихына алтын әріптермен жазды. Оның халықаралық аренадағы әрбір өнері — мемлекеттің беделін асырып, ұлттық рухты биіктеткен тарихи сәттер болды.</p><h3 data-path-to-node="5">💡 Әлия Юсупованың ел танымалдығы мен ұлттық мақтанышқа қосқан үлесі:</h3><ul data-path-to-node="6"><li><p data-path-to-node="6,0,0"><b data-path-to-node="6,0,0" data-index-in-node="0">Қазақстанды көркем гимнастика жетекші елдерінің қатарына қосу:</b>
+Әлияға дейін әлемдік көркем гимнастикада Қазақстан аты сирек аталатын. Оның Афина (2004) және Пекин (2008) Олимпиадаларындағы рекордтық нәтижелері (4-ші және 5-ші орындар) мен Азия ойындарындағы абсолютті жеңістері елімізді осы спорт түрінен әлемдегі ең мықты мемлекеттердің қатарына шығарды.</p></li><li><p data-path-to-node="6,1,0"><b data-path-to-node="6,1,0" data-index-in-node="0">Ұлттық намыс пен халықаралық абырой:</b>
+Әлемдік гран-при мен әлем кубоктарының кезеңдерінде Қазақстанның көк байрағын биікте желбіретіп, Әнұранды шырқатқан сәттері жүздеген мың отандасымыздың бойында шексіз патриоттық сезім мен ұлттық мақтаныш ұялатты. Ол халықаралық төрешілер мен жанкүйерлерге қазақ спортшыларының жоғары шеберлігін, эстетикасын және қайсар мінезін мойындатты.</p></li><li><p data-path-to-node="6,2,0"><b data-path-to-node="6,2,0" data-index-in-node="0">Ұлттық спорт дипломатиясы және сабақтастық:</b>
+Спорттық мансабын аяқтағаннан кейін де Әлия ел намысын қорғауды тоқтатқан жоқ. Қазіргі таңда ол федерация басшысы және бас бапкер ретінде жаңа буын гимнасттарды дайындап, Қазақстан көркем гимнастика мектебінің халықаралық беделін одан әрі нығайтып келеді.</p></li><li><p data-path-to-node="6,2,0">Түйінді ой:«Әлия Юсупованың халықаралық аренадағы жетістіктері — бұл тек жеке спортшының жеңісі емес, бұл — Қазақстанның атын әлемге танытқан ұлттық жеңіс. Ол өз өнері арқылы спорттың мемлекеттің беделін қалыптастырудағы және ұлттық мақтанышты оятудағы қуатты құрал екенін айқын дәлелдеді.»</p></li></ul><h3 data-path-to-node="8">&nbsp;</h3></div>
+      <div class="card"><b>Жас ұрпаққа үлгі</b><p>Спортшының тәжірибесінен оқушы түйген қорытындыны өз сөзімен жазу.</p><h2 data-path-to-node="2">Жас ұрпаққа үлгі — Әлия Юсупова</h2><p data-path-to-node="3">Әлия Юсупованың өмір жолы мен спорттық мансабы — маған және менің қатарластарыма үлкен шабыт пен күш беретін шынайы үлгі.</p><h3 data-path-to-node="5">💡 Спортшы тәжірибесінен түйген өз қорытындым:</h3><ul data-path-to-node="6"><li><p data-path-to-node="6,0,0"><b data-path-to-node="6,0,0" data-index-in-node="0">Мақсатқа адалдық пен табандылық:</b>
+Әлия апамыздың күн сайынғы сағаттап созылған ауыр жаттығулары мен қатал тәртібі маған кез келген үлкен жеңістің артында үлкен еңбек тұратынын ұғындырды. Егер алға қойған мақсатың болса, ешқашан жарты жолдан қайтпау керек.</p></li><li><p data-path-to-node="6,1,0"><b data-path-to-node="6,1,0" data-index-in-node="0">Қиындыққа мойымау (төзімділік):</b>
+Жарақаттар, шаршау немесе психологиялық қысым болса да, өз-өзіңді жеңе білу — нағыз чемпионға тән қасиет. Әлия Юсупованың әлемдік аренадағы қайсарлығы маған кез келген қиындықты еңбекпен жеңуге болатынын дәлелдеді.</p></li><li><p data-path-to-node="6,2,0"><b data-path-to-node="6,2,0" data-index-in-node="0">Елге деген сүйіспеншілік:</b>
+Халықаралық жарыстарда туымызды желбіретіп, ел намысын бәрінен биік қоюы — бізді отансүйгіштікке, өз еліміздің мақтанышы болуға баулиды.</p></li></ul><h3 data-path-to-node="8">&nbsp;Жоба үшін түйін (Оқушы түйіні)</h3><blockquote data-path-to-node="9"><p data-path-to-node="9,0"><i data-path-to-node="9,0" data-index-in-node="0">«Әлия Юсупованың өмірбаяны маған мынадай маңызды сабақ берді: <b data-path-to-node="9,0" data-index-in-node="62">Тек дарынды болу жеткіліксіз, ең бастысы — темірдей тәртіп пен тынымсыз еңбек.</b> Апамыздың жолына қарап, мен де өз сабағымда, сүйікті ісімде ешқашан берілмей, алға ұмтылуды және елімнің абыройлы азаматы болуды мақсат еттім.»</i></p></blockquote></div>
+    </div>
+    <p><b>Авторлық қорытынды үлгісі:</b> «Цифрлық тарихи портрет тұлғаның өмір жолын ғана емес, оның жетістіктерінің қоғам үшін мәнін түсіндіруге мүмкіндік береді. Зерттеу барысында мен дереккөздерді салыстырудың және туған өлке тарихын тұлғалар арқылы танудың маңызын түсіндім».</p>
+  </section>
+  <section id="sources" class="panel active" spellcheck="false">
+    <h2><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">07 • Дереккөздер және цифрлық альбом</font></font></h2>
+    <ol>
+      <li><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Қазақстан Ұлттық олимпиадалық комитетінің ресми материалдары — спортшының жеке парақшасы мен нәтижелерін іздеу. </font></font><span style="font-size:11.0pt;line-height:107%;
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><a href="https://gymnastics.kz/martebe-zaly/?utm_source=chatgpt.com"><span style="font-size:14.0pt;line-height:107%"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">gymnastics.kz</font></font></span></a></span></li>
+      <li><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Халықаралық олимпиадалық комитеттің ресми сайты:&nbsp; </font></font><span style="font-size:11.0pt;line-height:107%;
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><a href="https://www.olympics.com/ru/olympic-games/beijing-2008/results/gymnastics-rhythmic/individual-all-round-women?utm_source=chatgpt.com"><span style="font-size:14.0pt;line-height:107%"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">www.olympics.com</font></font></span></a></span></li>
+      <li><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Қазақстан гимнастика федерациясының ресми жарияланымдары — қолжетімді болған жағдайда спортшының өмірбаяны мен қызметі туралы мәліметтер. </font></font><a href="https://www.instagram.com/kazgymfederation/"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">https://www.instagram.com/kazgymfederation/</font></font></a><p class="MsoNormal"><span lang="KZ"><o:p></o:p></span></p></li>
+      <li><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Газет-журнал мұрағаттары, кітапхана материалдары және спорттық жарияланымдар. </font></font><a href="https://drive.google.com/drive/folders/1JtRBiUUzY2IeSO8b_U8PxhiQ5VwkBT9K?usp=sharing"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">https://drive.google.com/drive/folders/1JtRBiUUzY2IeSO8b_U8PxhiQ5VwkBT9K?usp=sharing</font></font></a><p class="MsoNormal"><span lang="KZ">&nbsp;</span></p></li>
+      <li><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Автормен сұхбат: күні, өткізілген орны және сұхбат алушының келісімі.</font></font></li>
+    </ol>
+    <p><b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">QR-код:</font></font></b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;"> Сайт жарияланғаннан кейін оның нақты сілтемесі бойынша QR-код жасаңыз. Бұл үлгіде әзірге дайын QR-код жоқ.</font></font></p>
+    <p><b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Фотоальбом:</font></font></b><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;"> әр фотосуреттің астына авторын немесе ұйымын, жарияланған орнын, күнін және сілтемесін көрсетіңіз. Жеке фотосуреттерді рұқсатсыз пайдаланбаңыз.</font></font></p>
+  </section>
+</main>
+<footer><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">«Тұлғалар тарихта қалады, ал олардың еңбегі болашақ ұрпаққа үлгі болады».</font></font></footer>
+<script>
+const buttons=[...document.querySelectorAll('.nav button')];
+const panels=[...document.querySelectorAll('.panel')];
+buttons.forEach(btn=>btn.addEventListener('click',()=>{
+ buttons.forEach(b=>b.classList.toggle('active',b===btn));
+ panels.forEach(p=>p.classList.toggle('active',p.id===btn.dataset.target));
+}));
+
+
+</script><div id="goog-gt-tt" class="VIpgJd-yAWNEb-L7lbkb skiptranslate" style="display: none; border-radius: 12px; margin: 0 0 0 -23px; padding: 0; font-family: 'Google Sans', Arial, sans-serif;" data-id=""><div id="goog-gt-vt" class="VIpgJd-yAWNEb-hvhgNd"><div class="VIpgJd-yAWNEb-hvhgNd-Ud7fr"><img src="https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg" width="24" height="24" alt=""><div class=" VIpgJd-yAWNEb-hvhgNd-IuizWc-i3jM8c " dir="ltr">Бастапқы мәтін</div></div><div class="VIpgJd-yAWNEb-hvhgNd-k77Iif"><div id="goog-gt-original-text" class="VIpgJd-yAWNEb-nVMfcd-fmcmS VIpgJd-yAWNEb-hvhgNd-axAV1"></div></div><div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid ltr"><div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od ltr" dir="ltr"><div class="VIpgJd-yAWNEb-hvhgNd-UTujCb">Осы аударманы бағалаңыз</div><div class="VIpgJd-yAWNEb-hvhgNd-eO9mKe">Пікіріңіз Google Аудармашыны жақсартуға көмектеседі</div></div><div class="VIpgJd-yAWNEb-hvhgNd-xgov5 ltr"><button id="goog-gt-thumbUpButton" type="button" class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Жақсы аударма" aria-label="Жақсы аударма" aria-pressed="false"><span id="goog-gt-thumbUpIcon"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7H2v13h16c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM7 18H4V9h3v9zm14-7l-3 7H9V8l4.34-4.34L12 9h9v2z"></path></svg></span><span id="goog-gt-thumbUpIconFilled"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7v13h11c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM5 7H1v13h4V7z"></path></svg></span></button><button id="goog-gt-thumbDownButton" type="button" class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Нашар аударма" aria-label="Нашар аударма" aria-pressed="false"><span id="goog-gt-thumbDownIcon"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7h5V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zM17 6h3v9h-3V6zM3 13l3-7h9v10l-4.34 4.34L12 15H3v-2z"></path></svg></span><span id="goog-gt-thumbDownIconFilled"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zm16 0h4V4h-4v13z"></path></svg></span></button></div></div><div id="goog-gt-votingHiddenPane" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><form id="goog-gt-votingForm" action="//translate.googleapis.com/translate_voting?client=te_lib" method="post" target="votingFrame" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><input type="text" name="sl" id="goog-gt-votingInputSrcLang"><input type="text" name="tl" id="goog-gt-votingInputTrgLang"><input type="text" name="query" id="goog-gt-votingInputSrcText"><input type="text" name="gtrans" id="goog-gt-votingInputTrgText"><input type="text" name="vote" id="goog-gt-votingInputVote"></form><iframe name="votingFrame" frameborder="0"></iframe></div></div></div>
+
+</body></html>
